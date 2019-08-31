@@ -1,10 +1,14 @@
 import React from 'react';
 
 function App() {
-  return (
-    <div>
-          <h1>Hellow,World!</h1>
-    </div>
+  return(
+
+          <div>
+                <label htmlFor="bar">bar </label>
+                <input type="text"onChange={()=>console.log("I am")}/>
+          </div>
+
+  
   );
 }
 
